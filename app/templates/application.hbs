@@ -1,2 +1,9 @@
+{{#carousel-component}}
+{{#each model as |story|}}
+  {{#carousel-item}}
+    <img src="{{story.image}}" alt="">
+  {{/carousel-item}}
+  {{/each}}
+{{/carousel-component}}
 
 {{outlet}}

@@ -22,3 +22,9 @@ export default Ember.Route.extend({
     return this.store.findAll('story');
   },
 });
+
+
+
+// <script type="text/x-handlebars" data-template-name="application">
+//     {{outlet}}
+// </script>
