@@ -1,0 +1,17 @@
+
+
+<h2>Welcome to Hustle</h2>
+
+<p>You Pop culture fix</p>
+
+<ul>
+  {{#each model as |story|}}
+     <li>{{story.storyTitle}} by {{story.author}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+
+{{#link-to 'about'}}About{{/link-to}}
+
+{{outlet}}
